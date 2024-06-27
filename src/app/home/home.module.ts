@@ -5,9 +5,10 @@ import { TranslateModule } from '@ngx-translate/core';
 import { SharedModule } from '@shared';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
+import { UsernamePipe } from './username.pipe';
 
 @NgModule({
   imports: [CommonModule, TranslateModule, SharedModule, HomeRoutingModule],
-  declarations: [HomeComponent],
+  declarations: [HomeComponent, UsernamePipe],
 })
 export class HomeModule {}

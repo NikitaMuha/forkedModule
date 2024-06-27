@@ -13,9 +13,15 @@
     </button>
     <div id="navbar-menu" class="collapse navbar-collapse float-xs-none" [ngbCollapse]="menuHidden">
       <div class="navbar-nav">
-        <a class="nav-item nav-link text-uppercase" routerLink="/home" routerLinkActive="active">
+        <a class="nav-item nav-link text-uppercase" routerLink="/home">
           <i class="fas fa-home"></i>
           <span translate>Home</span>
+        </a>
+      </div>
+      <div class="navbar-nav">
+        <a class="nav-item nav-link text-uppercase" routerLink="/test">
+          <i class="fa fa-window-maximize"></i>
+          <span translate>Test</span>
         </a>
       </div>
       <div class="navbar-nav ml-auto">

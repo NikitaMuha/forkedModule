@@ -12,5 +12,6 @@ import { HeaderComponent } from './header/header.component';
 @NgModule({
   imports: [CommonModule, TranslateModule, NgbModule, AuthModule, I18nModule, RouterModule],
   declarations: [HeaderComponent, ShellComponent],
+  exports: [HeaderComponent],
 })
 export class ShellModule {}
